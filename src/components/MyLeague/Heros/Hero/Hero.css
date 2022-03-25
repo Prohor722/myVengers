@@ -1,0 +1,25 @@
+
+.hero{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.hero img{
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.add-btn{
+    background-color: #ec1d24;
+    border: 2px solid #ec1d24;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-btn:hover{
+    background-color: #151515;
+    border: 2px solid #151515;
+    color: #ec1d24;
+}

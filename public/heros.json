@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Spider Man",
+        "price": 2000,
+        "image": "https://www.wallpaperuse.com/wallp/0-3168_m.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Black Panther",
+        "price": 1500,
+        "image": "https://wallpaperaccess.com/full/6917429.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Captain America",
+        "price": 3000,
+        "image": "https://www.enjpg.com/img/2020/captain-america-17.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Captain Marvel",
+        "price": 5000,
+        "image": "https://i.pinimg.com/originals/d7/8a/96/d78a962682bc6bab6ee1bce55bc0ac4b.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Strange",
+        "price": 3500,
+        "image": "https://wallpaper.dog/large/20523147.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hookeye",
+        "price": 1000,
+        "image": "https://www.ixpap.com/images/2021/11/Hawkeye-Wallpaper-6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Hulk",
+        "price": 3000,
+        "image": "https://mobilewallpaperhd.com/wp-content/uploads/2021/06/Hulk-Wallpaper.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Iron Man",
+        "price": 3200,
+        "image": "https://wallpaperbat.com/img/172620-iron-man-infinity-stones-armor-wallpaper-wallpaper.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Moon Knight",
+        "price": 3000,
+        "image": "https://wallpaperaccess.com/full/7922799.png"
+    },
+    {
+        "id": 10,
+        "name": "Scarlet Witch",
+        "price": 4500,
+        "image": "https://www.xtrafondos.com/en/descargar.php?id=7583&vertical=1"
+    },
+    {
+        "id": 11,
+        "name": "Thanos",
+        "price": 5200,
+        "image": "https://www.mordeo.org/files/uploads/2020/01/Thanos-Artwork-4K-Ultra-HD-Mobile-Wallpaper-950x1689.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Thor",
+        "price": 3200,
+        "image": "https://wallpaperbat.com/img/392920-download-thor-wallpaper.jpg"
+    }
+]
