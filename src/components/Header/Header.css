@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap');
 
 .nav-bar{
     background-color: #151515;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
-    font-family: 'Marvel', sans-serif;
-    background-color: red;
+    font-weight: bolder;
+    display: inline;
+    background-color: #ec1d24;
+    padding: 5px 10px;
     color: aliceblue;
 }

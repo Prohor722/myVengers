@@ -3,19 +3,22 @@
         "id": 1,
         "name": "Spider Man",
         "price": 2000,
-        "image": "https://www.wallpaperuse.com/wallp/0-3168_m.jpg"
+        "image": "https://www.wallpaperuse.com/wallp/0-3168_m.jpg",
+        "logo": "https://www.clipartmax.com/png/full/19-196280_civil-war-by-kevinfrank123-spider-man-homecoming-logo.png"
     },
     {
         "id": 2,
         "name": "Black Panther",
         "price": 1500,
-        "image": "https://wallpaperaccess.com/full/6917429.jpg"
+        "image": "https://wallpaperaccess.com/full/6917429.jpg",
+        "logo": "https://www.clipartmax.com/png/full/59-591858_black-panther-black-panther-face-drawing.png"
     },
     {
         "id": 3,
         "name": "Captain America",
         "price": 3000,
-        "image": "https://www.enjpg.com/img/2020/captain-america-17.jpg"
+        "image": "https://www.enjpg.com/img/2020/captain-america-17.jpg",
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Captain_America%27s_shield.svg/640px-Captain_America%27s_shield.svg.png"
     },
     {
         "id": 4,
@@ -45,7 +48,8 @@
         "id": 8,
         "name": "Iron Man",
         "price": 3200,
-        "image": "https://wallpaperbat.com/img/172620-iron-man-infinity-stones-armor-wallpaper-wallpaper.jpg"
+        "image": "https://wallpaperbat.com/img/172620-iron-man-infinity-stones-armor-wallpaper-wallpaper.jpg",
+        "logo": "https://www.clipartmax.com/png/full/46-466517_hero-iron-ironman-man-saver-super-superhero-icon-iron-man-vector-icon.png"
     },
     {
         "id": 9,

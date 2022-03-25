@@ -9,17 +9,21 @@
     width: 200px;
     border-radius: 10px;
 }
+.hero img:hover{
+    border: 4px solid #ec1d24;
+}
 
 .add-btn{
     background-color: #ec1d24;
     border: 2px solid #ec1d24;
     color: aliceblue;
     border-radius: 5px;
-    width: 100%;
+    width: 200px;
 }
 
 .add-btn:hover{
     background-color: #151515;
-    border: 2px solid #151515;
-    color: #ec1d24;
+    border: 2px solid #ff0000;
+    font-weight: bold;
+    color: #ff0000;
 }
