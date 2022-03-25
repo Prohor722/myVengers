@@ -17,12 +17,12 @@ const MyLeague = () => {
 
         let league = [];
 
-        if(!myLeague){
-            league = [...hero];
+        if(MyLeague.id === hero.id){
+            alert("Sorry you have already added this hero in your team.");
         }
         else{
-            if(MyLeague.id === hero.id){
-                alert("Sorry you have already added this hero in your team.");
+            if(!myLeague){
+                league = [...hero];
             }
             else{
                 const restLeague =myLeague;
