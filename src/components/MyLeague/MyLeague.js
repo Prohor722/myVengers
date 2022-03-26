@@ -11,6 +11,7 @@ const MyLeague = () => {
     const [ myLeague, setMyLeague ] = useState([]);
     const [ randomHero, setRandomHero ] = useState({});
 
+    let length = 0;
     //fetching data from heros.json
     useEffect(()=>{
         fetch('heros.json').then(res=>res.json()).then(data=>setHeros(data))
@@ -25,13 +26,16 @@ const MyLeague = () => {
             alert("Sorry you have already added this hero in your team.");
         }
         else{
+            // Checking if myLeague is empty 
             if(!myLeague){
                 league = [hero];
                 setMyLeague(league);
             }
+            //Checking if more 4 heros or not
             else if(myLeague.length>3){
                 alert("Sorry you can't add more then 4 heros in your team.");
             }
+            //or myLeague already have some data in it
             else{
                 const restLeague =myLeague;
                 league = [...restLeague,hero];
