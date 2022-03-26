@@ -1,3 +1,19 @@
-.display{
-    /* margin-bottom: 50px; */
+.reset{
+    border: 2px solid #151515;
+    color: #151515;
+}
+.reset:hover{
+    background-color: #ff0000;
+    font-weight: bold;
+    color: aliceblue;
+}
+.random{
+    /* background-color: #151515; */
+    border: 2px solid #ff0000;
+    color: #151515;
+}
+.random:hover{
+    background-color: #151515;
+    font-weight: bold;
+    color: aliceblue;
 }

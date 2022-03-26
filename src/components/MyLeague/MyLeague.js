@@ -45,6 +45,10 @@ const MyLeague = () => {
             </div>
             <div className="col-md-4 shadow">
                 <AddHeros myLeague={myLeague}></AddHeros>
+                <div className='mt-5'>
+                    <button className='btn reset'>Reset</button>
+                    <button className='btn random ms-3'>Random</button>
+                </div>
             </div>
         </div>
     );
