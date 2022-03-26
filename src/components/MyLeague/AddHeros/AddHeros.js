@@ -2,10 +2,10 @@ import React from 'react';
 import './AddHeros.css'
 import MyHero from './MyHero/MyHero';
 
-const AddHeros = ({myLeague}) => {
+const AddHeros = ({myLeague,remove}) => {
     return (
         myLeague.map(hero=>{
-            return <MyHero hero={hero} key={hero.id}></MyHero>
+            return <MyHero hero={hero} key={hero.id} remove={remove}></MyHero>
         })
     );
 };

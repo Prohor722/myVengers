@@ -56,17 +56,31 @@ const MyLeague = () => {
     const reset= () =>{
         setMyLeague([]);
     }
+
+    const remove = (id) =>{
+        const filterList = myLeague.filter(hero=>hero.id!==id);
+        setMyLeague(filterList);
+    }
     return (
         <div className="display row g-0">
+
+            {/* All heros List  */}
             <div className="col-md-8 row row-cols-lg-3 row-cols-md-2 mb-5 g-0">
                 <HerosList heros={heros} addHero={addHero}></HerosList>
             </div>
+
             <div className="col-md-4 shadow">
+
+                {/* Selected heros list  */}
                 <h3 className='mt-3'>MY LEAGUE</h3>
                 <div className='row row-cols-md-2 m-0'>
-                    <AddHeros myLeague={myLeague}></AddHeros>
+                    <AddHeros myLeague={myLeague} remove={remove}></AddHeros>
                 </div>
-                    <RandomSelect hero={randomHero}></RandomSelect>
+                
+                {/* Random Hero show section  */}
+                <RandomSelect hero={randomHero}></RandomSelect>
+                
+                {/* Reset and Random button  */}
                 <div className='mt-5 mb-3'>
                     <button className='btn reset' onClick={reset}>Reset</button>
                     <button className='btn random ms-3' onClick={random}>Random</button>
