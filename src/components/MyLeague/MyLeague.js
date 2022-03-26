@@ -8,13 +8,13 @@ const MyLeague = () => {
 
     const [ heros, setHeros] = useState([]);
     const [ myLeague, setMyLeague ] = useState([]);
+    // let error = "";
 
     useEffect(()=>{
         fetch('heros.json').then(res=>res.json()).then(data=>setHeros(data))
     },[]);
 
     const addHero=(hero)=>{
-
         let league = [];
 
         const match = myLeague.find(myHero=>myHero.id===hero.id);
@@ -23,14 +23,18 @@ const MyLeague = () => {
         }
         else{
             if(!myLeague){
-                league = [...hero];
+                league = [hero];
+                setMyLeague(league);
+            }
+            else if(myLeague.length>3){
+                alert("Sorry you can't add more then 4 heros in your team.");
             }
             else{
                 const restLeague =myLeague;
                 league = [...restLeague,hero];
+                setMyLeague(league);
             }
         }
-        setMyLeague(league);
         console.log(myLeague);
     }
     return (
