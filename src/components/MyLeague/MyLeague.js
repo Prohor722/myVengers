@@ -17,7 +17,8 @@ const MyLeague = () => {
 
         let league = [];
 
-        if(MyLeague.id === hero.id){
+        const match = myLeague.find(myHero=>myHero.id===hero.id);
+        if(match){
             alert("Sorry you have already added this hero in your team.");
         }
         else{
