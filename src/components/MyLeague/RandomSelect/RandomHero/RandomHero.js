@@ -1,7 +1,7 @@
 import React from 'react';
 import './RandomHero.css'
 
-const Hero = ({hero}) => {
+const RandomHero = ({hero}) => {
     return (
         <div className='randomHero'>
               <img src={hero.image} className="shadow" alt=""/>
@@ -10,4 +10,4 @@ const Hero = ({hero}) => {
     );
 };
 
-export default Hero;
+export default RandomHero;

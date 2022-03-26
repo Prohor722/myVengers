@@ -38,7 +38,7 @@ const MyLeague = () => {
                 setMyLeague(league);
             }
         }
-        console.log(myLeague);
+        // console.log(myLeague);
     }
 
     //random select functionality in my heros
@@ -49,7 +49,6 @@ const MyLeague = () => {
         else{
             const rand = Math.round(Math.random()*(myLeague.length-1));
             setRandomHero(myLeague[rand]);
-            console.log('myLeague',randomHero);
         }
     }
 
@@ -63,12 +62,12 @@ const MyLeague = () => {
                 <HerosList heros={heros} addHero={addHero}></HerosList>
             </div>
             <div className="col-md-4 shadow">
-                <h3 className='mt-3'>My League</h3>
+                <h3 className='mt-3'>MY LEAGUE</h3>
                 <div className='row row-cols-md-2 m-0'>
                     <AddHeros myLeague={myLeague}></AddHeros>
                 </div>
                     <RandomSelect hero={randomHero}></RandomSelect>
-                <div className='mt-5'>
+                <div className='mt-5 mb-3'>
                     <button className='btn reset' onClick={reset}>Reset</button>
                     <button className='btn random ms-3' onClick={random}>Random</button>
                 </div>

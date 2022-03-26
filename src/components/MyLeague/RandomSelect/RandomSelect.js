@@ -3,9 +3,12 @@ import RandomHero from './RandomHero/RandomHero';
 
 const Random = ({hero}) => {
     if(hero.id){
-        console.log('random',hero)
+        
         return (
-            <RandomHero hero={hero}></RandomHero>
+            <div className='mt-5'>
+                <p>Randomly Picked a Hero for You</p>
+                <RandomHero hero={hero}></RandomHero>
+            </div>
         );
     }
     else{
