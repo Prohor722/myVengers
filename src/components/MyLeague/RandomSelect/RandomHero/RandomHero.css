@@ -1,9 +1,10 @@
-
+/* Random Hero div style  */
 .randomHero{
     margin-top: 30px;
     border-radius: 10px;
 }
 
+/* Random hero image style  */
 .randomHero img{
     height: 350px;
     width: 200px;

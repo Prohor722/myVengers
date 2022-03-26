@@ -1,9 +1,10 @@
-
+/* Full div style  */
 .hero{
     margin-top: 50px;
     border-radius: 10px;
 }
 
+/* hero image style in heros list  */
 .hero img{
     height: 350px;
     width: 200px;
@@ -13,6 +14,7 @@
     border: 4px solid #ec1d24;
 }
 
+/* add to list button style  */
 .add-btn{
     background-color: #ec1d24;
     border: 2px solid #ec1d24;
@@ -20,7 +22,6 @@
     border-radius: 5px;
     width: 200px;
 }
-
 .add-btn:hover{
     background-color: #151515;
     border: 2px solid #ff0000;

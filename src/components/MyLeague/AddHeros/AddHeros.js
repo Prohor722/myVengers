@@ -1,5 +1,4 @@
 import React from 'react';
-import './AddHeros.css'
 import MyHero from './MyHero/MyHero';
 
 const AddHeros = ({myLeague,remove}) => {

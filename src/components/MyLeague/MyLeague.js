@@ -57,6 +57,7 @@ const MyLeague = () => {
         setMyLeague([]);
     }
 
+    //Remove from my league
     const remove = (id) =>{
         const filterList = myLeague.filter(hero=>hero.id!==id);
         setMyLeague(filterList);
