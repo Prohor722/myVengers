@@ -53,7 +53,10 @@ const MyLeague = () => {
         }
     }
 
-    
+    //Reset button functionality in myLeague
+    const reset= () =>{
+        setMyLeague([]);
+    }
     return (
         <div className="display row g-0">
             <div className="col-md-8 row row-cols-lg-3 row-cols-md-2 mb-5 g-0">
@@ -66,7 +69,7 @@ const MyLeague = () => {
                 </div>
                     <RandomSelect hero={randomHero}></RandomSelect>
                 <div className='mt-5'>
-                    <button className='btn reset'>Reset</button>
+                    <button className='btn reset' onClick={reset}>Reset</button>
                     <button className='btn random ms-3' onClick={random}>Random</button>
                 </div>
             </div>
