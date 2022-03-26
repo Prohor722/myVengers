@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './Hero/Hero';
-import './Heros.css'
+import './HerosList.css'
 
 const Heros = ({heros,addHero}) => {
 

@@ -1,11 +1,16 @@
 import React from 'react';
 import './MyHero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const MyHero = ({hero}) => {
     return (
         <div className='myHero'>
             <img src={hero.logo} className="" alt=""/>
-            <p>Name: {hero.name}</p>
+            <div className='d-flex justify-content-center align-items-center g-0'>
+                <p className='mt-3'>{hero.name}</p>
+                <FontAwesomeIcon icon={faXmark} className="ms-1 btn"></FontAwesomeIcon>
+            </div>
         </div>
     );
 };

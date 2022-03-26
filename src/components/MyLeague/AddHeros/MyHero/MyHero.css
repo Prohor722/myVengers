@@ -1,7 +1,13 @@
 .myHero{
-    margin-top: 50px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    padding: 0%;
+}
+.myHero:hover{
+    box-shadow: 0px 0px 15px rgba(255, 158, 158, 0.836);
 }
 .myHero img{
     height: 70px;
+    margin-top: 10px;
     /* width: 50px; */
 }

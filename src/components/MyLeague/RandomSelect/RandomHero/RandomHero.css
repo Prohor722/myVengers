@@ -1,0 +1,11 @@
+
+.randomHero{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.randomHero img{
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+}
